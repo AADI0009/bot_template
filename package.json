@@ -3,7 +3,7 @@
     "main": "bot.js",
     "author": "AADI0009",
     "version": "1.0.0",
-    "repository": "https://github.com/AADI0009/moderation_bot",
+    "repository": "https://github.com/AADI0009/bot_template",
     "description": "A cool Discord bot for moderation",
     "scripts": {
         "start": "node bot.js"
