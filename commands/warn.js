@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 const { red } = require("../colors.js");
 
 module.exports = {
-    name: 'help',
+    name: 'warn',
   
     execute(client, message, args) {
     
