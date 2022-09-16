@@ -1,14 +1,14 @@
-const { Client, Collection } = require("discord.js");
-const client = new Client({ intents: 32767 });
-module.exports = client;
+const { Client, Intents } = require('discord.js');
 
-client.commands = new Collection();
-client.config = require("./config.json");
-require("./handler")(client);
+global.client = new Client({
+    intents: [
+        Intents.FLAGS.GUILDS,
+        Intents.FLAGS.GUILD_MESSAGES
+    ]
+});
 
-const token = process.env["token"] || client.config.token;
-if(token === ""){
-   console.log("Invalid Token");
-  } else {
-   client.login(token);
-}
+client.config = require('./config');
+require('./colors.js');
+require('./src/loader');
+
+client.login(client.config.token);
