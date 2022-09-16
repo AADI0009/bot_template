@@ -8,7 +8,7 @@ global.client = new Client({
 });
 
 client.config = require('./config');
-require('./colors.js');
+require('./colors.json');
 require('./src/loader');
 
 client.login(client.config.bot.token);
