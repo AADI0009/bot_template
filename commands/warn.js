@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const { MessageEmbed } = require("discord.js");
-const { red } = require("../colors.js");
+const { red } = require("../colors.json");
 
 module.exports = {
     name: 'warn',
