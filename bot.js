@@ -11,4 +11,4 @@ client.config = require('./config');
 require('./colors.js');
 require('./src/loader');
 
-client.login(client.config.token);
+client.login(client.config.bot.token);
