@@ -1,8 +1,4 @@
 module.exports = {
-    bot: {
-        token: 'bot token'
-    },
-    app: {
+        token: 'bot token',
         prefix: '$'
-    }
 };
