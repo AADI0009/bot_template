@@ -7,3 +7,4 @@ client.on("ready", async () => {
     `${prefix}help`,
     { type: "PLAYING" }
   );
+}
