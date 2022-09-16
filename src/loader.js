@@ -1,5 +1,5 @@
 const { readdirSync } = require('fs');
-const { Collection } = require('discord.js');
+const { Client, Collection } = require('discord.js');
 
 client.commands = new Collection();
 
