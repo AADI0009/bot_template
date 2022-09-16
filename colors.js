@@ -3,5 +3,6 @@
   "black": "000000",
   "green": "00FF1D",
   "pink": "FF00E9",
-  "yellow":"FFE900"
+  "yellow": "FFE900",
+  "emerald": "#50C878"
 }
