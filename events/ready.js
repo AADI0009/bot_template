@@ -1,4 +1,4 @@
-const client = require("../index");
+const client = require("../bot");
 const { prefix } = require("../config.json");
 
 console.log(`${client.user.username} ready!`);
