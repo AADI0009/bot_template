@@ -1,11 +1,7 @@
 const { Client, Intents } = require('discord.js');
 
-global.client = new Client({
-    intents: [
-        Intents.FLAGS.GUILDS,
-        Intents.FLAGS.GUILD_MESSAGES
-    ]
-});
+const allIntents = new Intents(32767);
+const client = new Client({ intents: allIntents });
 
 client.config = require('./config');
 require('./colors.json');
